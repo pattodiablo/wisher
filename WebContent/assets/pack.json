@@ -1,13 +1,21 @@
 {
-  "images": [{
-    "type": "image",
-    "key": "building1",
-    "url": "assets/images/building1.png",
-    "overwrite": false
-  }],
+  "images": [
+    {
+      "type": "image",
+      "key": "building1",
+      "url": "assets/images/building1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "background",
+      "url": "assets/images/background.png",
+      "overwrite": false
+    }
+  ],
   "atlas": [],
   "meta": {
-    "generated": "1596728328040",
+    "generated": "1596728612163",
     "app": "Phaser Editor",
     "url": "http://phasereditor.boniatillo.com",
     "version": "1.0",

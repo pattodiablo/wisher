@@ -36,8 +36,9 @@ Level.prototype.preload = function () {
 };
 
 Level.prototype.create = function () {
-	var _building = this.add.sprite(578.0, 477.0, 'building1');
-	_building.scale.set(0.5, 0.5);
+	this.add.sprite(0.0, 0.0, 'background');
+	
+	this.add.sprite(-17.0, 840.0, 'building1');
 	
 	
 	
