@@ -2,7 +2,7 @@
   "canvas-version": 2,
   "settings": {
     "className": "Level",
-    "sceneWidth": 800,
+    "sceneWidth": 960,
     "sceneHeight": 600,
     "generateOnSave": true,
     "enableStepping": false,
@@ -41,10 +41,25 @@
     "info": {
       "editorName": "Level",
       "setAll": [],
-      "children": []
+      "children": [{
+        "type": "image",
+        "id": "f0862038-6d90-4557-8115-18e2b0e168d1",
+        "asset": "0",
+        "info": {
+          "editorName": "building",
+          "x": 578,
+          "y": 477,
+          "scale.x": 0.5,
+          "scale.y": 0.5
+        }
+      }]
     }
   },
   "type": "STATE",
-  "asset-table": {},
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "images",
+    "asset": "building1"
+  }},
   "prefab-table": {}
 }

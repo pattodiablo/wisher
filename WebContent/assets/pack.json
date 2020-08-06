@@ -1,7 +1,16 @@
-{"meta": {
-  "generated": "1490300737380",
-  "app": "Phaser Editor",
-  "url": "http://phasereditor.boniatillo.com",
-  "version": "1.0",
-  "copyright": "Arian Fornaris (c) 2015,2016"
-}}
+{
+  "images": [{
+    "type": "image",
+    "key": "building1",
+    "url": "assets/images/building1.png",
+    "overwrite": false
+  }],
+  "atlas": [],
+  "meta": {
+    "generated": "1596728328040",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
