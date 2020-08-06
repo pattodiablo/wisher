@@ -2,8 +2,8 @@
   "canvas-version": 2,
   "settings": {
     "className": "Level",
-    "sceneWidth": 960,
-    "sceneHeight": 600,
+    "sceneWidth": 1920,
+    "sceneHeight": 1080,
     "generateOnSave": true,
     "enableStepping": false,
     "lang": "JAVA_SCRIPT",
@@ -41,25 +41,38 @@
     "info": {
       "editorName": "Level",
       "setAll": [],
-      "children": [{
-        "type": "image",
-        "id": "f0862038-6d90-4557-8115-18e2b0e168d1",
-        "asset": "0",
-        "info": {
-          "editorName": "building",
-          "x": 578,
-          "y": 477,
-          "scale.x": 0.5,
-          "scale.y": 0.5
+      "children": [
+        {
+          "type": "image",
+          "id": "ef9cdbc1-d952-467d-97f3-a709faef1c4f",
+          "asset": "0",
+          "info": {"editorName": "background"}
+        },
+        {
+          "type": "image",
+          "id": "f0862038-6d90-4557-8115-18e2b0e168d1",
+          "asset": "1",
+          "info": {
+            "editorName": "building",
+            "x": -17,
+            "y": 840
+          }
         }
-      }]
+      ]
     }
   },
   "type": "STATE",
-  "asset-table": {"0": {
-    "file": "WebContent/assets/pack.json",
-    "section": "images",
-    "asset": "building1"
-  }},
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "images",
+      "asset": "background"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "images",
+      "asset": "building1"
+    }
+  },
   "prefab-table": {}
 }
