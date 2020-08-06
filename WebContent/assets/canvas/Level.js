@@ -31,9 +31,15 @@ Level.prototype.init = function () {
 
 Level.prototype.preload = function () {
 	
+	this.load.pack('images', 'assets/pack.json');
+	
 };
 
 Level.prototype.create = function () {
+	var _building = this.add.sprite(578.0, 477.0, 'building1');
+	_building.scale.set(0.5, 0.5);
+	
+	
 	
 };
 
